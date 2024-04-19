@@ -4,10 +4,13 @@ for (let number = 1; number <= 100; number++) {
   li.innerHTML += element;
   if (number % 3 == 0 && number % 5 == 0) {
     console.log(number, "FizzBuzz");
+    li.append("FizzBuzz");
   } else if (number % 3 == 0) {
     console.log(number, "Fizz");
+    li.append("Fizz");
   } else if (number % 5 == 0) {
     console.log(number, "Buzz");
+    li.append("Buzz")
   } else {
     console.log(number);
   }
