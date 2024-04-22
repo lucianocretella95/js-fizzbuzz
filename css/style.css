@@ -5,12 +5,12 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-ul h1{
+h1{
     color: red;
     text-align: center;
 }
 
-li{
+ul{
     color: dodgerblue;
     display: flex;
     justify-content: space-between;
