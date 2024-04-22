@@ -7,8 +7,14 @@
 
 ul h1{
     color: red;
+    text-align: center;
 }
 
 li{
     color: dodgerblue;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 5rem;
+    padding-right: 5rem;
 }
